@@ -1,62 +1,40 @@
-# InfraLink: Revolutionizing Urban Project Management
+# InfraLink: A Role-Based Urban Project Management Platform
 
-## Introduction
-InfraLink is a smart and collaborative platform designed to tackle the challenges of inter-departmental coordination in urban governance. By streamlining project management, optimizing resource allocation, and fostering transparent communication, InfraLink enhances efficiency in city-level projects.
+## Overview
+InfraLink is an innovative platform developed to address the challenges of inter-departmental coordination in urban governance. Designed for efficient resource utilization and streamlined project management, this solution fosters transparency, collaboration, and effective communication between departments involved in city-level projects.
 
-## Key Features
-### Role-Based Access Control
-- **Project Heads**: Initiate projects, assign departments, and oversee progress.
-- **Department Heads**: Delegate tasks, track project developments, and report updates.
-- **Supervisors**: Allocate tasks to workers and monitor real-time progress.
+## Features
+- **Role-Based Login System**: 
+  - **Project Heads**: Create/manage projects, assign departments, oversee progress.
+  - **Department Heads**: Assign tasks, manage supervisors, report to project heads.
+  - **Supervisors**: Distribute tasks, monitor worker progress, report to department heads.
+- **Task Scheduler with PERT Charts**: Plan and track tasks efficiently using proven scheduling techniques.
+- **AI-Integrated Chatbot**: Assists in identifying relevant departments and provides quick insights.
+- **Dynamic Discussion Forum**: Facilitates real-time communication and collaboration among team members.
+- **Location-Based Resource Pooling**: Detects project collisions and optimizes resource allocation.
+- **Real-Time Progress Tracking**: Monitors task completion for supervisors and workers.
+- **Notifications and Alerts**: Keeps users informed of updates and deadlines.
+- **Online Meetings**: Enables interaction and discussion across various roles.
 
-### Task Management & Scheduling
-- **PERT Chart Integration**: Utilize Program Evaluation and Review Technique (PERT) charts for structured project planning and scheduling.
-
-### AI Chatbot Support
-- **Smart Assistance**: Helps identify relevant departments and provides quick insights for smoother decision-making.
-
-### Interactive Discussion Forum
-- **Seamless Collaboration**: A real-time platform for team discussions and updates.
-
-### Location-Based Resource Allocation
-- **Conflict Detection**: Identifies project collisions and optimizes resource distribution across departments.
-
-### Real-Time Progress Monitoring
-- **Effortless Tracking**: Supervisors can oversee task completion, ensuring efficiency and transparency.
-
-### Alerts & Notifications
-- **Stay Updated**: Automated notifications keep teams informed about deadlines and project changes.
-
-### Online Meetings
-- **Integrated Communication**: Conduct virtual meetings within the platform to enhance teamwork.
-
-## Tech Stack
-| Frontend | Backend | APIs & Tools |
-|----------|--------|--------------|
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | OpenCage API, PERT-based task scheduling, Geolocation tracking |
+## Technical Stack
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Django, Python
+- **APIs and Tools**: OpenCage API, task scheduling with PERT charts, location tracking.
 
 ## Demo
-Watch InfraLink in action: [InfraLink Demo](https://youtu.be/H2G3MTutKuE)  
-[![InfraLink Demo](https://img.youtube.com/vi/H2G3MTutKuE/0.jpg)](https://youtu.be/H2G3MTutKuE)
+Check out the demo of InfraLink in action here:  
+[![InfraLink Demo](https://img.youtube.com/vi/H2G3MTutKuE/0.jpg)](https://youtu.be/H2G3MTutKuE)  
+Click the thumbnail above to watch the full demo on YouTube.
 
-## Why InfraLink?
-- **Enhanced Governance**: Enables efficient coordination between multiple departments.  
-- **Cost & Time Efficiency**: Reduces delays, optimizes resource utilization, and prevents mismanagement.  
-- **Transparency & Accountability**: Real-time dashboards, automated tracking, and clear reporting streamline project execution.  
+## Benefits
+- **Enhanced Urban Governance**: Improves inter-departmental collaboration and resource management.
+- **Cost Savings**: Replaces traditional methods, reducing delays and operational inefficiencies.
+- **Real-Time Insights**: Provides transparency through alerts, dashboards, and reports.
 
-## How to Set Up
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Navigate to the project folder and start the backend server:
-   ```bash
-   python manage.py runserver
-   ```
-3. Open `http://localhost:8000` in your browser to access InfraLink.
+## How to Run
+1. Clone the repository: `git clone <repository-url>`
+2. Run the server: `python manage.py runserver`
+3. Access the platform at `http://localhost:8000`
 
----
-
-### About the Project
-InfraLink was developed as a group project by a team of six, including me, for the **SIH Hackathon**. Our goal was to bridge gaps in urban governance by creating a seamless and role-based project management solution.
-
+## Contributions
+We welcome contributions to enhance InfraLink. Please create a pull request or open an issue for feedback.
